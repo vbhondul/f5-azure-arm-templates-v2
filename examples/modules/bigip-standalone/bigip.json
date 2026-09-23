@@ -430,6 +430,9 @@
       "properties": {
         "allowBlobPublicAccess": false,
         "supportsHttpsTrafficOnly": true
+        "networkAcls": {
+        "defaultAction": "Deny",
+        "bypass": "AzureServices"
       },
       "sku": {
         "name": "Standard_LRS",
@@ -446,6 +449,9 @@
       "properties": {
         "allowBlobPublicAccess": false,
         "supportsHttpsTrafficOnly": true
+        "networkAcls": {
+        "defaultAction": "Deny",
+        "bypass": "AzureServices"
       },
       "sku": {
         "name": "Standard_LRS",
